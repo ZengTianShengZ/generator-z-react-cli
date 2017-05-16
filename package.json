@@ -1,6 +1,6 @@
 {
   "name": "generator-z-react-cli",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "ract+webpack+redux 项目脚手架",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "keywords": [
     "yeoman-generator"
   ],
-  "author": "曾田生<zengtianshengz@163.com>",
+  "author": "曾田生<ZengTianShengZ@163.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ZengTianShengZ/generator-z-react-lic/issues"

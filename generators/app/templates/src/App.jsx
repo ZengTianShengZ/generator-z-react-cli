@@ -4,6 +4,7 @@ import {render} from 'react-dom';
 import store from './Redux/store';
 import router from './Router/router';
 import './Style/comm.scss';
+import './Style/index.scss'
 
 store.subscribe(() => {
 

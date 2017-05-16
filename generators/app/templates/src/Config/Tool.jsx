@@ -19,13 +19,13 @@ Tool.paramType = data => {
     return paramStr
 };
 /**
- * 网络数据请求工具方法 : fetch
+ * 网络数据请求工具方法 : fetch  POST 请求
  * @param dispatch  redux派发action
  * @param path      路径
  * @param data      post参数
  * @param successFun  请求成功回调
  */
-Tool.fetchData =(dispatch,path,data,successFun) => {
+Tool.fetchData_P =(path,data,successFun) => {
     fetch(path,{
         method: 'POST',
         mode: 'cors',
@@ -40,6 +40,6 @@ Tool.fetchData =(dispatch,path,data,successFun) => {
         }
         return response.json();
     }).then(successFun).catch(error => {
-        console.log('  .........   fetchData error failed', error)
+        console.log('  .........   fetchData_P error failed', error)
     })
 };

@@ -1,5 +1,6 @@
 # React 脚手架 
 
+![](https://img.shields.io/npm/v/generator-z-react-cli.svg?style=flat-square)  ![](https://img.shields.io/david/cnpm/npminstall.svg?style=flat-square)  ![](https://img.shields.io/npm/dm/generator-z-react-cli.svg?style=flat-square)  ![](https://img.shields.io/npm/l/generator-z-react-cli.svg)
     
 ## 2.目录结构
 ```

@@ -1,5 +1,8 @@
 # React 脚手架 
 
+![](https://img.shields.io/npm/v/generator-z-react-cli.svg?style=flat-square)  ![](https://img.shields.io/david/cnpm/npminstall.svg?style=flat-square)  ![](https://img.shields.io/npm/dm/generator-z-react-cli.svg?style=flat-square)  ![](https://img.shields.io/npm/l/generator-z-react-cli.svg)
+   
+   
 之前在开发 Vue 项目的时候,用到了 vue-cli 脚手架,很是方便.到了 React项目,想着是否自己
 也可以定制一套实用的脚手架,刚好,了解到可以做基于yeoman generator的npm包.于是倒腾出来这套
 基于 react+es6+redux+router 的架手架.

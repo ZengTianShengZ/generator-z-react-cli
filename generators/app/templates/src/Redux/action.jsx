@@ -27,7 +27,7 @@ const dispatchInitData = (path, json) => {
  */
 export const fetchInitData = (path, data) => {
     return dispatch => {
-        Tool.fetchData(dispatch,path, data, (responseData)=> {
+        Tool.fetchData_P(path, data, (responseData)=> {
 
             return dispatch(dispatchInitData(path, responseData));
         })
