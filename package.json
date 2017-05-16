@@ -1,6 +1,6 @@
 {
   "name": "generator-z-react-cli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "ract+webpack+redux 项目脚手架",
   "main": "index.js",
   "scripts": {

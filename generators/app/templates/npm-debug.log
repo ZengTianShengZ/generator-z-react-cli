@@ -1,0 +1,153 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '--access=public' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/bong/gitstore/generator-z-react-cli/generators/app/templates',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/bong/.npm/group/1.0.0/package.tgz not in flight; packing
+9 info lifecycle group@1.0.0~prepublish: group@1.0.0
+10 silly lifecycle group@1.0.0~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/Users/bong/.npm/group/1.0.0/package.tgz',
+11 verbose tar pack   '/Users/bong/gitstore/generator-z-react-cli/generators/app/templates' ]
+12 verbose tarball /Users/bong/.npm/group/1.0.0/package.tgz
+13 verbose folder /Users/bong/gitstore/generator-z-react-cli/generators/app/templates
+14 verbose addLocalTarball adding from inside cache /Users/bong/.npm/group/1.0.0/package.tgz
+15 silly cache afterAdd group@1.0.0
+16 verbose afterAdd /Users/bong/.npm/group/1.0.0/package/package.json not in flight; writing
+17 verbose afterAdd /Users/bong/.npm/group/1.0.0/package/package.json written
+18 silly publish { name: 'group',
+18 silly publish   version: '1.0.0',
+18 silly publish   description: 'react webpack lesson',
+18 silly publish   main: 'index.js',
+18 silly publish   scripts:
+18 silly publish    { dev: 'node server.js',
+18 silly publish      hot: 'node server_hot.js',
+18 silly publish      buildt: 'webpack --config webpack.config.buildt.js --progress --colors --watch -p',
+18 silly publish      online: 'webpack --config webpack.config.online.js --progress --colors --watch -p',
+18 silly publish      start: 'node server.js' },
+18 silly publish   repository:
+18 silly publish    { type: 'github',
+18 silly publish      url: 'git+https://github.com/ZengTianShengZ/react-lesson.git' },
+18 silly publish   author: '',
+18 silly publish   license: 'ISC',
+18 silly publish   bugs: { url: 'https://github.com/ZengTianShengZ/react-lesson/issues' },
+18 silly publish   homepage: 'https://github.com/ZengTianShengZ/react-lesson#readme',
+18 silly publish   dependencies:
+18 silly publish    { 'babel-polyfill': '^6.23.0',
+18 silly publish      'body-parser': '^1.17.1',
+18 silly publish      'deep-extend': '^0.4.1',
+18 silly publish      'github-markdown-css': '^2.4.0',
+18 silly publish      immutable: '^3.8.1',
+18 silly publish      'isomorphic-fetch': '^2.2.1',
+18 silly publish      'normalize.css': '^4.1.1',
+18 silly publish      'pure-render-decorator': '^1.2.1',
+18 silly publish      react: '^15.5.4',
+18 silly publish      'react-dom': '^15.3.2',
+18 silly publish      'react-redux': '^4.4.5',
+18 silly publish      'react-router': '^2.8.1',
+18 silly publish      redux: '^3.6.0',
+18 silly publish      'redux-immutablejs': '^0.0.8',
+18 silly publish      'redux-promise': '^0.5.3',
+18 silly publish      'redux-thunk': '^2.1.0',
+18 silly publish      'sass-loader': '^4.1.1' },
+18 silly publish   devDependencies:
+18 silly publish    { 'autoprefixer-loader': '^3.2.0',
+18 silly publish      'babel-core': '^6.23.1',
+18 silly publish      'babel-loader': '^6.2.8',
+18 silly publish      'babel-plugin-transform-decorators-legacy': '^1.3.4',
+18 silly publish      'babel-preset-es2015': '^6.6.0',
+18 silly publish      'babel-preset-react': '^6.5.0',
+18 silly publish      'babel-preset-react-hmre': '^1.1.1',
+18 silly publish      'babel-preset-stage-0': '^6.16.0',
+18 silly publish      'body-parser': '^1.15.1',
+18 silly publish      'browser-sync': '^2.18.8',
+18 silly publish      'clean-webpack-plugin': '^0.1.16',
+18 silly publish      'css-loader': '^0.23.1',
+18 silly publish      express: '^4.14.0',
+18 silly publish      'extract-text-webpack-plugin': '^1.0.1',
+18 silly publish      'file-loader': '^0.8.5',
+18 silly publish      'html-webpack-plugin': '^2.22.0',
+18 silly publish      'http-proxy-middleware': '^0.17.3',
+18 silly publish      'jsx-loader': '^0.13.2',
+18 silly publish      less: '^2.6.1',
+18 silly publish      'less-loader': '^2.2.3',
+18 silly publish      'node-sass': '^3.11.3',
+18 silly publish      'react-hot-loader': '^1.3.1',
+18 silly publish      'react-transform-catch-errors': '^1.0.2',
+18 silly publish      'react-transform-hmr': '^1.0.4',
+18 silly publish      'redbox-react': '^1.3.3',
+18 silly publish      sass: '^0.5.0',
+18 silly publish      'sass-loader': '^4.0.2',
+18 silly publish      'style-loader': '^0.13.1',
+18 silly publish      'url-loader': '^0.5.7',
+18 silly publish      webpack: '^1.13.0',
+18 silly publish      'webpack-dev-middleware': '^1.8.4',
+18 silly publish      'webpack-dev-server': '1.14.1',
+18 silly publish      'webpack-hot-middleware': '^2.13.2' },
+18 silly publish   readme: '# React 脚手架 \n\n![](https://img.shields.io/npm/v/generator-z-react-cli.svg?style=flat-square)  ![](https://img.shields.io/david/cnpm/npminstall.svg?style=flat-square)  ![](https://img.shields.io/npm/dm/generator-z-react-cli.svg?style=flat-square)  ![](https://img.shields.io/npm/l/generator-z-react-cli.svg)\n   \n   \n之前在开发 Vue 项目的时候,用到了 vue-cli 脚手架,很是方便.到了 React项目,想着是否自己\n也可以定制一套实用的脚手架,刚好,了解到可以做基于yeoman generator的npm包.于是倒腾出来这套\n基于 react+es6+redux+router 的架手架.\n\n## webpack Feature\n\n   - 可以解析JSX语法\n   - 可以解析ES6语法新特性\n   - 支持LESS、SCSS预处理器\n   - 编译完成自动打开浏览器\n   - 单独分离CSS样式文件\n   - 支持文件MD5戳，解决文件缓存问题\n   - 支持图片、图标字体等资源的编译\n   - 支持浏览器源码调试\n   - 实现组件级热更新\n   - 实现代码的热替换，浏览器实时刷新查看效果\n   - 区分开发环境和生产环境\n   - 分离业务功能代码和公共依赖代码  \n   \n    \n##  目录结构\n```\n  z-react-cli\n  |-- index.html // 启动页(主页)\n  |-- build //构建目录，遵循发布系统规范\n  |    |-- index.html   //静态页面\n  |    |-- static       //资源文件发布到cdn,或发布到服务器  \n  |\n  |-- src                     //源码目录\n  |    |--component           // 组件\n  |    |      |-- common      //公共组件\n  |    |      |-- temp        //父组件\n  |    |--Config              //工具方法\n  |    |--Image               //图片资源\n  |    |--Redux               // react-redux 数据状态管理\n  |    |      |-- action.jsx  // 派发数据的 action\n  |    |      |-- reducer.jsx //用于处理 action 的 reducer\n  |    |      |-- store.jsx   //数据管理器\n  |    |-- Router           //路由\n  |    |-- Style            //样式\n  |    |-- template         //编译html模板\n  |    |-- App.jsx          //js 入口文件\n  |-- static                // 源码静态资源(公共资源)\n  |\n  |-- webpack.config.hot       // 本地热编译\n  |-- webpack.config.buildt    // 编译发布测试环境\n  |-- webpack.config.online    // 编译发布线上环境\n \n```\n\n## 使用脚手架 -- generator-z-react-cli\n\n首先确确保自己安装了 nodejs , 然后全局安装 yeoman\n```\nnpm install -g yo\n```\n\n然后安装 脚手架\n\n```\nnpm install -g generator-z-react-cli\n\n```\n\n最后新建个空文件夹,在文件夹里生成项目\n```\nyo z-react-cli\n\n```\n\nok , 项目构建完毕,可以愉快的进行 react 项目开发了\n\n\n## 前端项目构建\n\n``` bash\n# install dependencies\nnpm install\n\n# serve with hot reload at localhost:8080\nnpm run hot\n\n# build for production with test\nnpm run buildt\n\n# build for production with online\nnpm run online\n```\n\n\n \n    \n## 项目架构 \n  \n   - 本项目采用 React 框架 , react-redux做数据状态管理,react-router做路由转发\n   - 用 webpack 编译打包项目,实现生产,预发,线上不同环境下的调试开发\n\n   \n ',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   _id: 'group@1.0.0',
+18 silly publish   _shasum: '75157818082fd5ef663b27f8c2db2b4d07ee5115',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name group
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/group
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading /Users/bong/.npm/group/1.0.0/package.tgz
+26 verbose request uri https://registry.npmjs.org/group
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 6:51:28 PM
+29 verbose request using bearer token for auth
+30 verbose request id 1eed5212a2ead987
+31 http request PUT https://registry.npmjs.org/group
+32 http 403 https://registry.npmjs.org/group
+33 verbose headers { 'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'content-length': '99',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Tue, 16 May 2017 10:51:31 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-nrt6130-NRT',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1494931890.155412,VS0,VE1208',
+33 verbose headers   vary: 'Accept-Encoding' }
+34 verbose request invalidating /Users/bong/.npm/registry.npmjs.org/group on PUT
+35 error publish Failed PUT 403
+36 verbose stack Error: you do not have permission to publish "group". Are you logged in as the correct user? : group
+36 verbose stack     at makeError (/usr/local/lib/node_modules/.npm_npminstall/node_modules/.4.0.5@npm/node_modules/npm-registry-client/lib/request.js:264:12)
+36 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/.npm_npminstall/node_modules/.4.0.5@npm/node_modules/npm-registry-client/lib/request.js:252:14)
+36 verbose stack     at Request._callback (/usr/local/lib/node_modules/.npm_npminstall/node_modules/.4.0.5@npm/node_modules/npm-registry-client/lib/request.js:172:14)
+36 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/.npm_npminstall/node_modules/.4.0.5@npm/node_modules/request/request.js:198:22)
+36 verbose stack     at emitTwo (events.js:87:13)
+36 verbose stack     at Request.emit (events.js:172:7)
+36 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/.npm_npminstall/node_modules/.4.0.5@npm/node_modules/request/request.js:1063:14)
+36 verbose stack     at emitOne (events.js:82:20)
+36 verbose stack     at Request.emit (events.js:169:7)
+36 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/.npm_npminstall/node_modules/.4.0.5@npm/node_modules/request/request.js:1009:12)
+37 verbose statusCode 403
+38 verbose pkgid group
+39 verbose cwd /Users/bong/gitstore/generator-z-react-cli/generators/app/templates
+40 error Darwin 16.5.0
+41 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "--access=public"
+42 error node v5.0.0
+43 error npm  v3.3.6
+44 error code E403
+45 error you do not have permission to publish "group". Are you logged in as the correct user? : group
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
