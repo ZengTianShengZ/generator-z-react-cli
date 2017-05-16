@@ -1,9 +1,9 @@
-# React 脚手架 -
+# React 脚手架 
 
     
 ## 2.目录结构
 ```
-  group
+  z-react-cli
   |-- index.html // 启动页(主页)
   |-- build //构建目录，遵循发布系统规范
   |    |-- index.html   //静态页面
@@ -70,3 +70,25 @@ npm run online
    - 实现代码的热替换，浏览器实时刷新查看效果
    - 区分开发环境和生产环境
    - 分离业务功能代码和公共依赖代码  
+   
+## 使用脚手架 -- generator-z-react-cli
+
+首先确确保自己安装了 nodejs , 然后全局安装 yeoman
+```
+npm install -g yo
+```
+
+然后安装 脚手架
+
+```
+npm install -g generator-z-react-cli
+
+```
+
+最后新建个空文件夹,在文件夹里生成项目
+```
+yo z-react-cli
+
+```
+
+ok , 项目构建完毕,可以愉快的进行 react 项目开发了

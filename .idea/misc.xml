@@ -39,11 +39,6 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/generators/app/templates/src/Component/Explain.jsx" />
-    <file url="file://$PROJECT_DIR$/generators/app/templates/src/Component/SetHead.jsx" />
-    <file url="file://$PROJECT_DIR$/generators/app/templates/src/Component/setting.jsx" />
-  </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
