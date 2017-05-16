@@ -19,7 +19,7 @@ var Reactpackage = yeoman.Base.extend({
         this.copy('package.json', 'package.json');   //拷贝文件
         this.copy('.babelrc', '.babelrc');
         this.copy('dataJson.json', 'dataJson.json');
-        this.copy('server.json', 'server.json');
+        this.copy('server.js', 'server.js');
         this.copy('server_hot.js','server_hot.js');
         this.copy('index.html', 'index.html');
         this.copy('README.md', 'README.md');
