@@ -1,5 +1,6 @@
-import React, {Component, PropTypes} from 'react';
-import { Router, Route, Redirect, IndexRoute, browserHistory, hashHistory } from 'react-router';
+import React, {Component} from 'react';
+import { Router, Route, Redirect, IndexRoute } from 'react-router';
+import { HashRouter } from 'react-router-dom'
 import Index from '../Component/Index.jsx';
 /*=================
    router.jsx 组件
@@ -7,8 +8,8 @@ import Index from '../Component/Index.jsx';
 ==================*/
 
 const RouteConfig =(
-  <Router history={hashHistory}>
+  <HashRouter>
       <Route path='/' component={Index}/>
-   </Router>
+   </HashRouter>
 );
 export default RouteConfig

@@ -1,4 +1,4 @@
-import React,{Component,PropTypes} from 'react';
+import React,{Component} from 'react';
 import {Provider,connect} from 'react-redux';
 import {render} from 'react-dom';
 import store from './Redux/store';

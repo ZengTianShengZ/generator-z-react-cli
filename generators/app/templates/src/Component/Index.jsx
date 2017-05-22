@@ -1,4 +1,5 @@
-import React, {Component, PropTypes,ReactDOM} from 'react';
+import React, {Component,ReactDOM} from 'react';
+import PropTypes from 'prop-types';
 import template from './temp/template';
 /*=============
  群主页
@@ -54,6 +55,9 @@ class Index extends Component {
         )
     }
 }
+Index.propTypes = {
+  GetInitData: PropTypes.object
+};
 export default template({
     id: 'index',
     url: '/getData',
